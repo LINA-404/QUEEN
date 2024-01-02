@@ -178,7 +178,7 @@ def main_apv():
         os.system("clear")
         print(logo)
         print ("    \033[1;32mYOUR KEY : "+ak+key1)    
-        input('     \033[1;35mYOU WANT TO BUY THEN PRESS ENTER ')
+  #      input('     \033[1;35mYOU WANT TO BUY THEN PRESS ENTER ')
         tks = 'Dear%20Admin,%20Please%20Apporved%20My%20Key%20To%20Premium✓✓%20%20%20%20%20My%20%20Key%20%20:%20'+ak+''+key1
         os.system('am start https://wa.me/+923201991731')
         
