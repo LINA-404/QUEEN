@@ -147,55 +147,86 @@ device = {
         'fbca':fbca,
         'fbdm':fbdm}
 def main_apv():
+	
     imt="000Y=="
+	
     ak="XD-QUEEN"
+	
     os.system('clear')
+	
     print(logo)
+	
     try:
+	    
         key1=open('/data/data/com.termux/files/usr/bin/.akkkk-cov', 'r').read()
+	    
     except IOError:
+	    
         os.system("clear")
+	    
         print(logo)
-        print ("YOUR TOKEN IS NOT APROVAL")     
+	    
+        print ("YOUR TOKEN IS NOT APROVAL")
+	    
         print ("")
+	    
         myid=uuid.uuid4().hex[:10].upper()
+	    
         print ("  YOUR KEY : "+ak+myid+imt)
+	    
         print ("•───────────────────────────────────────•")
+	    
         kok=open('/data/data/com.termux/files/usr/bin/.akkkk-cov', 'w')
+	    
         kok.write(myid+imt)
+	    
         kok.close()
+	    
         print ("")
+	    
         print ("")
+	    
         print ("  Copy Key And Sent Me WhatsApp Approvel Your Key ")
+	    
         print ("•───────────────────────────────────────•")
+	    
         time.sleep(3.5)
+	    
         tks = 'Dear%20Admin,%20Please%20Approved%20My%20Token%20To%20Premium%20% 20% 20%20%20My%20%20Key%20%20:%20'+ak+''+myid+''+imt
-        os.system('am start https://wa.me/+923201991731')
+	    
+        os.system('am start https://wa.me/+923269916436')
+	    
     r1=requests.get("https://raw.githubusercontent.com/LINA-404/QUEEN/main/Aproval.txt").text
     if key1 in r1:
+	    
         menu()
+	    
     else:
+	    
         os.system("clear")
+	    
         print(logo)
-        print ("    \033[1;32mYOUR KEY : "+ak+key1)    
+        print ("    \033[1;32mYOUR KEY : "+ak+key1)
+	    
   #      input('     \033[1;35mYOU WANT TO BUY THEN PRESS ENTER ')
+	    
         tks = 'Dear%20Admin,%20Please%20Apporved%20My%20Key%20To%20Premium✓✓%20%20%20%20%20My%20%20Key%20%20:%20'+ak+''+key1
-        os.system('am start https://wa.me/+923201991731')
+	    
+        os.system('am start https://wa.me/+923269916436')
         
         
 logo=("""\033[1;37m
-      oooo    oooo ooooooooo.   oooo    oooo 
-      `888   .8P'  `888   `Y88. `888   .8P'  
-       888  d8'     888   .d88'  888  d8'    
-       88888[       888ooo88P'   88888[      
-       888`88b.     888          888`88b.    
-       888  `88b.   888          888  `88b.  
-      o888o  o888o o888o        o888o  o888o 
+db      d888888b d8b   db  .d8b.  \033[1;34m  \033[1;37m
+88        `88'   888o  88 d8' `8b  \033[1;34m𝐐 \033[1;31m
+88         88    88V8o 88 88ooo88  \033[1;34m𝐔  \033[1;37m  
+88         88    88 V8o88 88~~~88  \033[1;34m𝐄\033[1;31m
+88booo.   .88.   88  V888 88   88  \033[1;34m𝐄  \033[1;37m
+Y88888P Y888888P VP   V8P YP   YP  \033[1;34m𝐍 \033[1;37m
 \033[1;33m--------------------------------------------------\033[1;37m
-\033[1;33m[\033[1;31m★\033[1;33m]\033[1;37m Author   : Muhammad Zakaryia
-\033[1;33m[\033[1;31m★\033[1;33m]\033[1;37m Facebook : Pathan King 
-\033[1;33m[\033[1;31m★\033[1;33m] \033[1;37mTool     : Paid
-\033[1;33m[\033[1;31m★\033[1;33m] \033[1;37mVersion  : 16.3
+\033[1;33m[\033[1;31m★\033[1;33m]\033[1;37m Author   : lina
+\033[1;33m[\033[1;31m★\033[1;33m]\033[1;37m Facebook : lina
+\033[1;33m[\033[1;31m★\033[1;33m] \033[1;37mTool     : free
+\033[1;33m[\033[1;31m★\033[1;33m] \033[1;37mVersion  : 0.1
 \033[1;33m--------------------------------------------------\033[1;37m""")
 def linex():
 	print('\033[1;33m--------------------------------------------------\033[1;37m')
