@@ -206,6 +206,7 @@ def main_apv():
         os.system("clear")
 	    
         print(logo)
+	    
         print ("    \033[1;32mYOUR KEY : "+ak+key1)
 	    
   #      input('     \033[1;35mYOU WANT TO BUY THEN PRESS ENTER ')
